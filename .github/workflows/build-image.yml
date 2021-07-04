@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - - name: Cache Docker Layers
+      - name: Cache Docker Layers
         uses: actions/cache@v2
         with:
           path: /tmp/.buildx-cache
