@@ -42,7 +42,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: docker/login-action@v1
         with:
-          username: otakuassembly
+          username: sksat
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build and Push
